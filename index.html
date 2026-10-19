@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Help and troubleshooting for SandingBerkas, the macOS folder comparison and synchronization app.">
+  <meta name="color-scheme" content="light dark">
+  <title>Support · SandingBerkas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">SandingBerkas<span>for macOS</span></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+  <main id="main">
+    <p class="eyebrow">Help &amp; support</p>
+    <h1>A clear path through<br>your folder differences.</h1>
+    <p class="lead">Get started with SandingBerkas, troubleshoot folder access, or ask for help with a comparison.</p>
+    <a class="button" href="https://github.com/ahmadnizar0209/sandingberkas-support/issues/new">Ask for help on GitHub</a>
+    <p class="note">A GitHub account is needed to post. Support requests are public. Please use sample files and remove personal information from paths, reports, and screenshots.</p>
+    <div class="content">
+      <section class="panel" aria-labelledby="start-heading">
+        <h2 id="start-heading">Your first comparison</h2>
+        <ol>
+          <li>Choose a <strong>Left</strong> folder and a <strong>Right</strong> folder using Browse.</li>
+          <li>Choose comparison criteria. Content hash (T2) compares fingerprints; Byte-exact (T3) compares file bytes.</li>
+          <li>Select <strong>Compare</strong> and inspect the results.</li>
+          <li>Build a synchronization plan. Check its direction and operations, resolve conflicts, then approve it when ready.</li>
+        </ol>
+        <p class="note">Requires macOS 14 or later. Maintain an independent backup of important files.</p>
+      </section>
+      <section aria-labelledby="questions-heading">
+        <h2 id="questions-heading">Common questions</h2>
+        <details open><summary>Why can’t the app access my folder?</summary><p>Reconnect the original drive, then choose the folder again using Browse. SandingBerkas needs access to both selected folders. It will not silently substitute a different drive.</p></details>
+        <details open><summary>When do scheduled profiles run?</summary><p>Keep SandingBerkas open when schedules are enabled. This release runs scheduled profiles while the app is open.</p></details>
+        <details open><summary>Where are recovery copies kept?</summary><p>Review the protection policy before running a plan. Recovery copies may be kept in your chosen destination folder. Keep them until you are satisfied that you no longer need them.</p></details>
+      </section>
+    </div>
+    <section class="wide" aria-labelledby="report-heading">
+      <h2 id="report-heading">Help us reproduce the problem</h2>
+      <p>Include your SandingBerkas version, macOS version, the steps you took, what you expected, and what happened. Try to reproduce the issue with disposable sample files. Do not upload private documents, credentials, or unredacted reports.</p>
+      <p><a href="https://github.com/ahmadnizar0209/sandingberkas-support/issues">Browse existing support requests</a> · <a href="privacy.html">Read the privacy policy</a></p>
+    </section>
+  </main>
+  <footer><span>© 2026 Ahmad Nizar Hidayat</span><a href="https://github.com/ahmadnizar0209/sandingberkas-support">Support repository on GitHub</a></footer>
+</body>
+</html>
