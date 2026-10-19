@@ -1,0 +1,39 @@
+name: Bug report
+description: Report a reproducible SandingBerkas issue.
+title: "Bug: "
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is public. Do not include private documents, credentials, personal information or unredacted paths. Use disposable sample files."
+  - type: input
+    id: app-version
+    attributes:
+      label: SandingBerkas version
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: macOS version and Mac architecture
+      description: For example, macOS 15 on Apple silicon.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and error message
+      description: Remove private names and paths before posting.
+    validations:
+      required: true
