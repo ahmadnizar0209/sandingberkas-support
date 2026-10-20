@@ -16,6 +16,9 @@ If you select a network share or a folder managed by a cloud storage provider, r
 Optional features
 Notifications are requested through macOS. Scheduling runs while the app is open unless a separately configured background helper has been explicitly authorized. Local declarative plugin recipes can access the result or selection metadata described in Settings. They cannot load native libraries or execute arbitrary scripts. Store updates are provided by Apple through the Mac App Store.
 
+Purchases
+The free 14-day trial and the Full Version are In-App Purchases made through the Mac App Store with your Apple Account. Apple processes them. SandingBerkas only asks macOS which of them your Apple Account owns; the developer receives no payment or account details.
+
 Control and retention
 You can stop a run, disable schedules and plugins, and manage local caches in Settings. Keep recovery copies until you are satisfied that you no longer need them. Removing the app does not automatically remove saved documents, reports or recovery copies in your folders. macOS controls permissions and the application container.
 
